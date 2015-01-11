@@ -1,7 +1,7 @@
 --- holds all snippets for linux/ansi_c.
 -- @author Alejandro Baez <alejan.baez@gmail.com>
 -- @copyright 2015
--- @license MIT (see LICENSE)
+-- @license GPL-2.0 (see LICENSE)
 -- @module snippets
 
 --- the list of all the snippets for linux/ansi_c

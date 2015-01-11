@@ -1,8 +1,11 @@
---- init file
+--- default initializer
+-- @author Alejandro Baez <alejan.baez@gmail.com>
+-- @copyright 2015
+-- @license GPL-2.0 (see LICENSE)
+-- @module init
 
 
 local patch = _USERHOME .. "/modules/linux/checkpatch.pl --no-tree -f "
-
 textadept.run.compile_commands.linux = patch .. '%f'
 
 events.connect(events.LEXER_LOADED, function (lang)
