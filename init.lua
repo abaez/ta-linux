@@ -34,5 +34,8 @@ clean:\n\tmake -C $(KERNEL) M=$(PWD) clean\n \
   end
 end)
 
+if type(snippets) == 'table' then
+  snippets.linux = require("modules.linux.snippets")
+end
 
 return {}
